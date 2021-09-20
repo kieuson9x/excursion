@@ -1,1 +1,1 @@
-# javascript-syntax-portfolio-project
+# Get random message
