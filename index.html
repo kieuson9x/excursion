@@ -5,14 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="resources/css/normalize.css" rel="stylesheet" />
     <link href="resources/css/style.css" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <h1>Discover hidden places in the world around you</h1>
+        <h1 class="title">Discover hidden places in the world around you</h1>
         <p>
-            <a href="#">Download Excursion (Coming soon!)</a>
+            <a class="download" href="#">Download Excursion (Coming soon!)</a>
         </p>
     </header>
+    <main>
+        <section id="video-container">
+            <video autoplay src="resources/videos/excursion.mp4" muted loop>
+                Video is not supported
+            </video>
+        </section>
+
+        <section id="">
+            <h2 class="title">Your personal travel guide</h2>
+            <p class="description">
+                Excursion remembers places you like, and recommends new points of interest around you.
+            </p>
+            <img src="resources/images/camp.webp" alt="camping"/>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="resources/images/phone.webp" alt="phone-icon"/>
+        <h2 class="title">Coming Soon for iPhone and Android</h2>
+        <p>
+            <a class="download" href="#">Download Excursion (Coming soon!)</a>
+        </p>
+        <p class="copyright">
+            © Excursion
+        </p>
+    </footer>
 </body>
 </html>

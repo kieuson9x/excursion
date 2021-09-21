@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.download {
+  font-size: 16px;
+  color: aquamarine;
+}
+
+header .title {
+  font-size: 50px;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+main .title {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+main .description {
+  font-size: 21px;
+  color: grey;
+}
+
+footer .copyright {
+  text-align: right;
+  color: grey;
+}
